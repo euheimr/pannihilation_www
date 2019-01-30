@@ -1,0 +1,468 @@
+@charset "UTF-8";
+
+
+
+.html{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    
+}
+
+/* Body **************************/
+.body {
+    font-family: source-sans-pro;
+    /*background-color: #f2f2f2;*/
+    background-color: white;
+    
+    font-style: normal;
+    font-weight: normal;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+/* MAIN Container ****************/
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: white;
+    align-content: center;
+    
+    /* background-image: url(../img/bg/crosstitch_light.png); */
+}
+
+
+/******* Navigation ****************************************************/
+/*the header nav bar (menu area) and footer both span 
+100% of the width of the screen, irregardless of client 
+screen width.
+
+For the footer area, look for ".footer" */
+
+.navbar {
+    overflow:hidden;
+    display:inline-block;
+    height: 60px;
+    font-size: 1.2em;
+    
+    top: 0;
+    left: 0;
+    margin: 0px;
+    width: 100%;
+    position: fixed;
+    background-color: darkred;
+    
+    
+    list-style-type: none;
+    
+    /*
+    background-image: url(../logo.png);
+    */
+    
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+header ul {
+    list-style-type: none;
+    font-weight: bold;
+    text-align: center;
+    text-indent: none;
+    margin: 1 auto;
+    padding: 0;
+}
+
+/* navigation bar */
+ul li {
+    overflow:hidden;
+    display:inline;
+    color: #fcdbc4;
+    text-shadow: 1px 1px 1px orangered;
+    
+}
+ul li a {
+    text-decoration: none;
+	font-family: Cambria, serif;
+	font-size: 1.2em;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: lowercase;
+	letter-spacing: normal;
+	line-height: 1.1em;
+    color: #fcdbc4;
+    
+}
+/******* main style-  navigation bar, link hover color ***************
+
+*/
+ul li:hover a {
+    color: orangered;
+}
+
+
+.logo {
+    display: block;
+    background-image: url(../logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+    
+    transition-duration: 1s;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    
+}
+
+
+/**** main style - Main background banner section ***************
+
+*/
+.banner_header {
+    /* */
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 2.2em;
+    transition-duration: 1s;
+    text-shadow: 2px 3px 4px black;
+}
+
+.banner {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    width: 100%;
+    background-image: url(../img/);
+    padding-top: 5%;
+    padding-bottom: 400px;
+}
+
+
+
+
+/****main style - What We Do Section **************************/
+.text_column {
+    
+    font-size: 1em;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 30px;
+    color: #000;
+}
+
+.about-title{
+    padding-top: 20%;
+    padding-bottom: 2%;
+    font-size: 1.9em;
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+}
+
+.p-title {
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-size: 1.8em;
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+}
+.about {
+    font-size: 2em;
+    display: inline-block;
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+.about_customized {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 1.3em;
+}
+
+
+/****main style - Why Massage Therapy Section **************************/
+.reason {
+    text-align: center;
+    font-size: 1.8em;
+    width: 100%;
+    background-size: cover;
+    list-style-type: none;
+    letter-spacing: 0px;
+}
+
+
+
+/*   
+*    FOOTER STYLES AREA
+*/
+.footer {
+    background-color: gray;
+    background-color: rgba(105,100,100,0.8);
+    text-align: center;
+    padding: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0px auto;
+    width: 100%;
+    position:fixed;
+    z-index: 1;
+    transition-duration: 1s;
+    
+}
+.footer p{
+    /*margin: 0px auto;*/
+    margin: 0 auto;
+}
+
+.footer_schedule {
+    
+    /*inherit from .footer*/
+    text-align: inherit;
+    line-height: 10px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.8em;
+    margin: 0 auto;
+    padding-bottom: 1%;
+}
+
+.top-button{
+    height: 15px;
+    font-size: 1.8em;
+    display: block;
+    color: lightgray;
+    /*inherit from .footer*/
+    text-align: inherit;
+    text-decoration: none;
+    padding: 0;
+    padding-bottom: 5px;
+    z-index: 1;
+}
+
+.top-button-text p{
+    font-size: 1em;
+    color: lightgray;
+}
+.footer a:visited{
+    color: lightgray;
+    text-decoration: inherit;
+    
+}
+
+
+
+
+.copyright {
+    padding-top: 10%;
+    bottom: 0px;
+    text-align: left;
+    background-color: inherit;
+    color: black;
+    text-transform: uppercase;
+    font-weight: darker;
+    letter-spacing: 2px;
+    border-top-width: 2px;
+    z-index: 1;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+table th{
+    padding: 10px;
+}
+
+.name{
+    text-align: left;
+    font-size: 1.8em;
+}
+
+.set-left{
+    float: left;
+}
+
+.set-right{
+    float:right;
+}
+
+
+
+
+
+
+
+
+
+/****  END OF DEFAULT LAYOUT STYLES     ****************************/
+
+@media (max-width: 350px){
+    .navbar{
+        font-size: 0.9em;
+    
+    }
+    
+    .banner_header {
+        padding-top: 10%;
+    }
+    
+    .p-title{
+        font-size: 1.3em;
+    }
+    
+    .about {
+        font-size: 0.9em;
+        padding: 0;
+    }
+    
+   
+    .map {
+        max-width: 320px;
+    }
+
+    .footer {
+        font-size: 0.6em;
+    }
+    
+
+    .copyright{
+        font-size: 0.6em;
+    }   
+}
+
+
+
+
+/* Mobile Layout only!!
+*    Tuned for iPhone 6/7/8 Plus but also scales very well with screens down to a width of 280px
+*    Galaxy S5 width: 360x640px.
+*/
+/****************************************************************
+                360px-500px PAGE FORMATTING
+*****************************************************************/
+@media (min-width: 350px) and (max-width: 500px) {
+    
+    .navbar{
+        padding-top: 2px;
+        font-size: 1em;
+        height: 50px;
+        text-align: center;
+    }
+    
+    .p-title{
+        font-size: 1.5em;
+    }
+    
+    .about {
+        font-size: 1em;
+    }
+    
+    .reason {
+        font-size: 1em;
+        line-height: 25px;
+    }
+    
+    .banner_header {
+        text-align: center;
+        padding-top: 5%;
+    }
+    
+    
+    .footer {
+        font-size: 0.7em;
+    }
+
+    
+    
+    .text_column {
+    }
+
+    .thumbnail {
+        width: 100%;
+    }
+    
+    .copyright {
+        font-size: 0.8em;
+    }
+    
+}
+
+
+
+
+
+
+/*  
+* Small Tablets Layout
+*    
+*
+*/
+/****************************************************************
+                500px-900px PAGE FORMATTING
+*****************************************************************/
+@media (min-width: 500px)and (max-width: 900px) {
+    .navbar{
+        padding-top: 5px;
+        font-size: 1.1em;
+        height: 55px;
+    }
+    
+    .about {
+        padding:0;
+    }
+    
+    .about_customized{
+        font-size: 1.1em;
+    }
+    
+    .text_column {
+        font-size: 0.9em
+    }
+    
+
+    
+    .banner{
+        padding-top: 5%;
+    }
+    
+    .banner_header {
+        
+        padding-top: 5%;
+    }
+    
+    .copyright {
+        font-size: 1em;
+    }
+    
+    .map{
+        padding-bottom: 5%;
+    }
+    
+    .footer {
+        font-size: 0.7em;
+    }
+    
+ 
+}
+
+
+/****************************************************************
+                >=1080px - PAGE FORMATTING
+*****************************************************************/
+
